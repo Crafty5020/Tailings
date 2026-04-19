@@ -2,7 +2,7 @@ import struct
 
 class TPack:
 	# Packet formats
-	HANDSHAKE_FMT = ">HBBBHB"
+	HANDSHAKE_FMT = ">HBBBHBBH"
 	HAT_DATA_FMT = ">HBBBHhhhhhh"
 	PANTS_DATA_FMT = ">HBBBHhhhhhhB"
 
@@ -15,7 +15,7 @@ class TPack:
 	# Packing methods
 	@classmethod
 	def pack_handshake(cls, connected: bytes):
-		return struct.pack(cls.HANDSHAKE_FMT, cls.HEADER, cls.WHERE, cls.CHARACTER_ID, 0x01, cls.ID, connected)
+		return struct.pack(cls.HANDSHAKE_FMT, cls.HEADER, cls.WHERE, cls.CHARACTER_ID, 0x01, cls.ID, connected, b'\x01' if cls.ID != b'\x00\x00' else b'\x00', cls.ID if cls.WHERE == b'\x01' else b'\x00\x00')
 	@classmethod
 	def pack_hat_data(cls, pos: tuple):
 		return struct.pack(cls.HAT_DATA_FMT, cls.HEADER, cls.WHERE, cls.CHARACTER_ID, 0x00, cls.ID, pos[0], pos[1], pos[2], pos[3], pos[4], pos[5])

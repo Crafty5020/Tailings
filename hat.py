@@ -7,5 +7,6 @@ import system.radioManager as rM
 
 def main():
 	global id, character_id, where
+	rM.hat_init()
 	
 
