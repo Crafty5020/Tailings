@@ -1,0 +1,8 @@
+# Contribution guidelines
+
+## Requirements
+* All code must be optimized for small linux computers and the Raspberry Pi Pico 2
+* Varibale names must follow the python naming convention or atleast make it understandable from a mile away
+* DO NOT FORK THIS REPO unless its for contributing to this project then just press the fork button and when contributing on a fork press the contribute button.
+* Please create a branch by going to the braches and making one and also make a pull request that is un-finished
+* To make a Pull request press the pull requets button and new pull request. Then using the branch you created use it has its compare. Also pls add tags, name, and a description.
