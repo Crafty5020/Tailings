@@ -1,2 +1,3 @@
+gpiod
 pyrf24
 circuitpython-nrf24l01
