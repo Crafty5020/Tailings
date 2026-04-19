@@ -7,10 +7,10 @@ class TPack:
 	PANTS_DATA_FMT = ">HBBBHhhhhhhB"
 
 	# Packet header and ID
-	HEADER : bytes = b'\xF6\x68'
-	ID : bytes = b'\x00\x00'
-	CHARACTER_ID : bytes = b'\x00'
-	WHERE : bytes = b'\x00'
+	HEADER = 0xF668
+	ID : int = 0x0000
+	CHARACTER_ID : int = 0x00
+	WHERE : int = 0x00
 
 	# Packing methods
 	@classmethod
