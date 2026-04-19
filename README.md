@@ -3,8 +3,8 @@
 Hello and welcome to Tailings.
 
 > [!IMPORTANT]
-> [Read LICENSE](./LICENSE.md) | [Read EULA](./EULA.md)
-> [How to Contribute](./CONTRIBUTING.md) | [Report Safety Bugs](./SECURITY.md)
+> [Read LICENSE](./LICENSE.md) | [Read EULA](./EULA.md) |
+> [How to Contribute](./CONTRIBUTING.md) | [Report Safety Bugs](./SECURITY.md) |
 > [see License and Terms](#license--terms)
 
 ## What is Tailings
@@ -33,5 +33,5 @@ This project is licensed under **CC-BY-NC-ND-4.0** license.
 * **Liability** By using this code you agree to the. [EULA](./EULA.md)
 
 > [!IMPORTANT]
-> [Read LICENSE](./LICENSE.md) | [Read EULA](./EULA.md)
+> [Read LICENSE](./LICENSE.md) | [Read EULA](./EULA.md) |
 > [How to Contribute](./CONTRIBUTING.md) | [Report Safety Bugs](./SECURITY.md)
