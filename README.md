@@ -30,7 +30,7 @@ This project is licensed under **CC-BY-NC-ND-4.0** license.
 
 * **No Commercial Use** You cannot sell this or products made with it.
 * **No Derivatives** You cannot share your own modified version of this code.
-* **Liability** By using this code you agree to the. [EULA](./EULA.md)
+* **Liability** By using this code you agree to the [EULA](./EULA.md).
 
 > [!IMPORTANT]
 > [Read LICENSE](./LICENSE.md) | [Read EULA](./EULA.md) |
