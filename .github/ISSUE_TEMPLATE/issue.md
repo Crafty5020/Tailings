@@ -5,9 +5,10 @@ title: "[BUG] "
 labels: bug
 ---
 
-## Character Used
+##  Pack Used
 
-(e.g., N, Rocky, Ivy)
+(e.g., One of the packs in the [github packs](), Custom TCPack(Provide a zip or link file to custom TCPack))
+
 
 ## Hardware Setup
 
@@ -18,7 +19,7 @@ labels: bug
 
 ## Software Version
 
-* **Tailings Version:** (e.g., v1.0.2)
+* **Tailings Version:** (e.g., v0.1.0)
 
 ## Describe the Issue
 
