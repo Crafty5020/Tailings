@@ -1,7 +1,7 @@
 print("INITIALIZING HAT")
 from system.tpack import TPack
 from main import id, character_id, where
-import system.radioManager as rM
+import system.jat.radioManager as rM
 
 
 
