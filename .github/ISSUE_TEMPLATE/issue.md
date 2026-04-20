@@ -20,6 +20,7 @@ labels: bug
 ## Software Version
 
 * **Tailings Version:** (e.g., v0.1.0)
+* **TCPacks Version:** (e.g., v0.0.1)
 
 ## Describe the Issue
 
