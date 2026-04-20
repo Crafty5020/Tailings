@@ -1,7 +1,8 @@
 print("INITIALIZING HAT")
 from system.tpack import TPack
 from main import id, character_id, where
-import system.jat.radioManager as rM
+import system.hat.radioManager as rM
+tcpack = __import__("external.tcpack-parser")
 
 
 
